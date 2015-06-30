@@ -14,7 +14,7 @@ gk_load('before');
 ?>
 
 <section id="gk-mainbody">
-	<?php the_post(); ?> oi
+	<?php the_post(); ?>
 	
 	<?php get_template_part( 'content', 'page' ); ?>
 	
