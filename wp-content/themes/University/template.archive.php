@@ -13,7 +13,7 @@ gk_load('before');
 <section id="gk-mainbody" class="archivepage">
 	<?php the_post(); ?>
 	
-	<h1 class="page-title"><?php the_title(); ?>1</h1>
+	<h1 class="page-title"><?php the_title(); ?></h1>
 	
 	<article>
 		<section class="intro">
