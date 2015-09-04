@@ -16,15 +16,13 @@ class GK_Tweets_Widget extends WP_Widget {
 	 * @return void
 	 *
 	 **/
-	function GK_Tweets_Widget() {
-		$this->WP_Widget(
-			'widget_gk_tweets', 
-			__( 'GK Tweets Widget', GKTPLNAME ), 
-			array( 
+	function __construct() {
+		$widget_ops = array(
 				'classname' => 'widget_gk_tweets', 
-				'description' => __( 'Use this widget to show recent tweets for specific query', GKTPLNAME) 
-			)
-		);
+				'description' =>  __( 'Use this widget to show recent tweets for specific query', GKTPLNAME)
+			);
+
+		parent::__construct( 'widget_gk_tweets', __( 'GK Tweets Widget', GKTPLNAME ), $widget_ops );
 		
 		$this->alt_option_name = 'widget_gk_tweets';
 	}

@@ -2,8 +2,8 @@
 	"template": {
 		"name": "University",
 		"update_name": "gk_university_wp",
-		"date": "27/05/2015",
-		"version": "1.5.1",
+		"date": "21/08/2015",
+		"version": "1.7",
 		"description": "A Premium education, responsive GavickPro Wordpress theme based on the GavernWP framework"
 	},
 	"developer_config": {

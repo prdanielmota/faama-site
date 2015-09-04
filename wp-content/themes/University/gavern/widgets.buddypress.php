@@ -14,15 +14,13 @@ class GK_BP_Gallery_Widget extends WP_Widget {
 	 * @return void
 	 *
 	 **/
-	function GK_BP_Gallery_Widget() {
-		$this->WP_Widget(
-			'widget_gk_buddypress', 
-			__( 'GK BuddyPress Gallery', GKTPLNAME ), 
-			array( 
+	function __construct() {
+		$widget_ops = array(
 				'classname' => 'widget_gk_buddypress', 
-				'description' => __( 'Use this widget to show recent statusk/photos of members', GKTPLNAME) 
-			)
-		);
+				'description' =>  __( 'Use this widget to show recent statusk/photos of members', GKTPLNAME)
+			);
+
+		parent::__construct( 'widget_gk_buddypress', __( 'GK BuddyPress Gallery', GKTPLNAME ), $widget_ops );
 		
 		$this->alt_option_name = 'widget_gk_buddypress';
 	}

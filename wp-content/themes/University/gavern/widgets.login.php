@@ -14,15 +14,13 @@ class GK_Login_Widget extends WP_Widget {
 	 * @return void
 	 *
 	 **/
-	function GK_Login_Widget() {
-		$this->WP_Widget(
-			'widget_gk_login', 
-			__( 'GK Login', GKTPLNAME ), 
-			array( 
+	function __construct() {
+		$widget_ops = array(
 				'classname' => 'widget_gk_login', 
-				'description' => __( 'Use this widget to show login form e.g. on sidebar postition', GKTPLNAME) 
-			)
-		);
+				'description' =>  __( 'Use this widget to show login form e.g. on sidebar postition', GKTPLNAME)
+			);
+
+		parent::__construct( 'widget_gk_login', __( 'GK Login', GKTPLNAME ), $widget_ops );
 	}
 
 	/**

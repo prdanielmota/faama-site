@@ -9,7 +9,7 @@ msgstr  ""
 "Project-Id-Version: University\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-19 08:56+0200\n"
-"PO-Revision-Date: 2014-09-09 09:56+0200\n"
+"PO-Revision-Date: 2015-08-20 14:14+0200\n"
 "Last-Translator: GavickPro <info@gavick.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -45,6 +45,16 @@ msgstr  ""
 msgid   "%1$s at %2$s"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid   "%1$s installed and activated successfully."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid   "%1$s installed successfully."
+msgstr  ""
+
 #: gavern/filters.php:283
 msgid   "&laquo; Back"
 msgstr  ""
@@ -62,11 +72,21 @@ msgstr  ""
 msgid   "1 Comment"
 msgstr  ""
 
+#: gavern/options.importexport.php:55
+msgid   "1. Click \"Browse\" button and choose a backup file that you backup "
+        "before."
+msgstr  ""
+
 #: comments.php:27
 msgid   "2 Comments"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:527
+#: gavern/options.importexport.php:56
+msgid   "2. Click \"Restore Template Settings\" button to restore your "
+        "template settings."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:627
 msgid   "404 page"
 msgstr  ""
 
@@ -78,7 +98,12 @@ msgstr  ""
 msgid   "<span>Tagged under</span>"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:542
+#: gavern/classes/class-tgm-plugin-activation.php:1312
+#: gavern/classes/class-tgm-plugin-activation.php:1410
+msgid   "Activate"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:639
 msgid   "Add page"
 msgstr  ""
 
@@ -90,39 +115,72 @@ msgstr  ""
 msgid   "Adobe Edge Fonts URL: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:689
+#: gavern/options.importexport.php:73
+msgid   "After exporting, you can either use the backup file to restore your "
+        "template settings on this site again or another Wordpress site when "
+        "using same Gavern template."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:786
 msgid   "All devices"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2071
+msgid   "All installations and activations have been completed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2080
+msgid   "All installations have been completed."
 msgstr  ""
 
 #: gavern/form_elements/Menu/menu.php:80
 msgid   "All levels"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:506
+#: gavern/helpers/helpers.features.php:606
 msgid   "All pages"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:507
+#: gavern/helpers/helpers.features.php:607
 msgid   "All pages except:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:705
+#: gavern/classes/class-tgm-plugin-activation.php:179
+#, php-format
+msgid   "All plugins installed and activated successfully. %1$s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:104
+#, php-format
+msgid   "All plugins installed and activated successfully. %s"
+msgstr  ""
+
+#: gavern/options.importexport.php:48
+msgid   "All template options are restored successfully."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:802
 msgid   "All users"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:298
+#: gavern/widgets.buddypress.php:296
 msgid   "Amount for page: "
 msgstr  ""
 
-#: gavern/widgets.tweets.php:260
+#: gavern/widgets.tweets.php:258
 msgid   "Amount of tweets:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid   "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr  ""
 
 #: gavern/form_elements/Menu/menu.php:93
 msgid   "Animation for "
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:297
+#: gavern/widgets.imageshow.php:296
 msgid   "Animation interval:"
 msgstr  ""
 
@@ -130,7 +188,7 @@ msgstr  ""
 msgid   "Animation speed for "
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:292
+#: gavern/widgets.imageshow.php:291
 msgid   "Animation speed:"
 msgstr  ""
 
@@ -141,7 +199,7 @@ msgid   "Apologies, but no results were found for the requested archive. "
         "Perhaps searching will help find a related post."
 msgstr  ""
 
-#: layouts/before.php:76 gavern/helpers/helpers.features.php:521
+#: layouts/before.php:76 gavern/helpers/helpers.features.php:621
 msgid   "Archive"
 msgstr  ""
 
@@ -153,7 +211,7 @@ msgstr  ""
 msgid   "Attachment size:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:522
+#: gavern/helpers/helpers.features.php:622
 msgid   "Author"
 msgstr  ""
 
@@ -161,28 +219,32 @@ msgstr  ""
 msgid   "Author Page"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:536
+#: gavern/helpers/helpers.features.php:634
 msgid   "Author:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:302
+#: gavern/widgets.imageshow.php:301
 msgid   "Autoanimation"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:330
+#: gavern/widgets.buddypress.php:328
 msgid   "Autoanimation:"
 msgstr  ""
 
-#: gavern/widgets.comments.php:203
+#: gavern/widgets.comments.php:201
 msgid   "Avatar size:"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:20
+#: gavern/widgets.latestphotos.php:23
 msgid   "BP Latest Photos"
 msgstr  ""
 
-#: template.contact.php:193
+#: template.contact.php:194
 msgid   "Back to the homepage"
+msgstr  ""
+
+#: gavern/options.importexport.php:77
+msgid   "Backup Template Settings"
 msgstr  ""
 
 #: gavern/layouts/template.php:28 gavern/options.importexport.php:29
@@ -193,11 +255,11 @@ msgstr  ""
 msgid   "Blog Archives"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:515 gavern/widgets.buddypress.php:51
+#: gavern/helpers/helpers.features.php:615 gavern/widgets.buddypress.php:49
 msgid   "BuddyPress Activity"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:221
+#: gavern/widgets.latestphotos.php:219
 msgid   "Cache time:"
 msgstr  ""
 
@@ -205,19 +267,19 @@ msgstr  ""
 msgid   "Categories"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:518
+#: gavern/helpers/helpers.features.php:618
 msgid   "Category"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:533
+#: gavern/helpers/helpers.features.php:631
 msgid   "Category ID/Name/slug:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:534
+#: gavern/helpers/helpers.features.php:632
 msgid   "Category ID:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:519
+#: gavern/helpers/helpers.features.php:619
 msgid   "Category with descendants"
 msgstr  ""
 
@@ -225,7 +287,7 @@ msgstr  ""
 msgid   "Close"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:206
+#: gavern/widgets.latestphotos.php:204
 msgid   "Columns: "
 msgstr  ""
 
@@ -237,15 +299,15 @@ msgstr  ""
 msgid   "Conditional rule"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:265
+#: gavern/widgets.tweets.php:263
 msgid   "Consumer key:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:270
+#: gavern/widgets.tweets.php:268
 msgid   "Consumer secret:"
 msgstr  ""
 
-#: template.contact.php:189
+#: template.contact.php:190
 msgid   "Contact Form"
 msgstr  ""
 
@@ -257,11 +319,11 @@ msgstr  ""
 msgid   "Create an account"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:679
+#: gavern/helpers/helpers.features.php:776
 msgid   "Custom CSS class"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:686
+#: gavern/helpers/helpers.features.php:783
 msgid   "Custom CSS class: "
 msgstr  ""
 
@@ -274,11 +336,11 @@ msgstr  ""
 msgid   "Daily Archives: %s"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:268
+#: gavern/widgets.buddypress.php:266
 msgid   "Data source:"
 msgstr  ""
 
-#: content-event.php:30
+#: content-event.php:32
 msgid   "Date: "
 msgstr  ""
 
@@ -286,38 +348,48 @@ msgstr  ""
 msgid   "Depth of "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:86
+#: gavern/helpers/helpers.features.php:186
 msgid   "Description:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:690
+#: gavern/helpers/helpers.features.php:787
 msgid   "Desktop"
 msgstr  ""
 
-#: gavern/widgets.login.php:178 gavern/widgets.login.php:191
-#: gavern/helpers/helpers.features.php:119
-#: gavern/helpers/helpers.features.php:127
-#: gavern/helpers/helpers.features.php:135
-#: gavern/helpers/helpers.features.php:142
-#: gavern/helpers/helpers.features.php:149
-#: gavern/helpers/helpers.features.php:156
-#: gavern/helpers/helpers.features.php:163
-#: gavern/helpers/helpers.features.php:170
-#: gavern/helpers/helpers.features.php:178
-#: gavern/helpers/helpers.features.php:185
-#: gavern/helpers/helpers.features.php:192 gavern/widgets.tweets.php:299
-#: gavern/widgets.tweets.php:308 gavern/widgets.tweets.php:317
+#: gavern/widgets.login.php:176 gavern/widgets.login.php:189
+#: gavern/helpers/helpers.features.php:219
+#: gavern/helpers/helpers.features.php:227
+#: gavern/helpers/helpers.features.php:235
+#: gavern/helpers/helpers.features.php:242
+#: gavern/helpers/helpers.features.php:249
+#: gavern/helpers/helpers.features.php:256
+#: gavern/helpers/helpers.features.php:263
+#: gavern/helpers/helpers.features.php:270
+#: gavern/helpers/helpers.features.php:278
+#: gavern/helpers/helpers.features.php:285
+#: gavern/helpers/helpers.features.php:292 gavern/widgets.tweets.php:297
+#: gavern/widgets.tweets.php:306 gavern/widgets.tweets.php:315
 #: gavern/form_elements/Menu/menu.php:58 gavern/form_elements/standard.php:237
-#: gavern/widgets.buddypress.php:311 gavern/widgets.buddypress.php:324
-#: gavern/widgets.buddypress.php:336
+#: gavern/widgets.buddypress.php:309 gavern/widgets.buddypress.php:322
+#: gavern/widgets.buddypress.php:334
 msgid   "Disabled"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:180
+msgid   "Dismiss this notice"
 msgstr  ""
 
 #: gavern/functions.php:98
 msgid   "Documentation"
 msgstr  ""
 
-#: template.contact.php:128
+#: gavern/classes/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid   "Downloading install package from <span class=\"code\">%s</"
+        "span>&#8230;"
+msgstr  ""
+
+#: template.contact.php:129
 msgid   "E-mail:"
 msgstr  ""
 
@@ -327,7 +399,7 @@ msgstr  ""
 msgid   "Edit"
 msgstr  ""
 
-#: template.contact.php:216
+#: template.contact.php:217
 msgid   "Email:"
 msgstr  ""
 
@@ -335,22 +407,22 @@ msgstr  ""
 msgid   "Enable"
 msgstr  ""
 
-#: gavern/widgets.login.php:175 gavern/widgets.login.php:188
-#: gavern/helpers/helpers.features.php:118
-#: gavern/helpers/helpers.features.php:126
-#: gavern/helpers/helpers.features.php:134
-#: gavern/helpers/helpers.features.php:141
-#: gavern/helpers/helpers.features.php:148
-#: gavern/helpers/helpers.features.php:155
-#: gavern/helpers/helpers.features.php:162
-#: gavern/helpers/helpers.features.php:169
-#: gavern/helpers/helpers.features.php:177
-#: gavern/helpers/helpers.features.php:184
-#: gavern/helpers/helpers.features.php:191 gavern/widgets.tweets.php:298
-#: gavern/widgets.tweets.php:307 gavern/widgets.tweets.php:316
+#: gavern/widgets.login.php:173 gavern/widgets.login.php:186
+#: gavern/helpers/helpers.features.php:218
+#: gavern/helpers/helpers.features.php:226
+#: gavern/helpers/helpers.features.php:234
+#: gavern/helpers/helpers.features.php:241
+#: gavern/helpers/helpers.features.php:248
+#: gavern/helpers/helpers.features.php:255
+#: gavern/helpers/helpers.features.php:262
+#: gavern/helpers/helpers.features.php:269
+#: gavern/helpers/helpers.features.php:277
+#: gavern/helpers/helpers.features.php:284
+#: gavern/helpers/helpers.features.php:291 gavern/widgets.tweets.php:296
+#: gavern/widgets.tweets.php:305 gavern/widgets.tweets.php:314
 #: gavern/form_elements/Menu/menu.php:57 gavern/form_elements/standard.php:238
-#: gavern/widgets.buddypress.php:308 gavern/widgets.buddypress.php:321
-#: gavern/widgets.buddypress.php:333
+#: gavern/widgets.buddypress.php:306 gavern/widgets.buddypress.php:319
+#: gavern/widgets.buddypress.php:331
 msgid   "Enabled"
 msgstr  ""
 
@@ -358,25 +430,29 @@ msgstr  ""
 msgid   "Enter an URL or upload an image."
 msgstr  ""
 
-#: content-event.php:28
+#: content-event.php:30
 msgid   "Event Details: "
+msgstr  ""
+
+#: gavern/options.importexport.php:70
+msgid   "Export Template Settings"
 msgstr  ""
 
 #: gavern/form_elements/Menu/menu.php:114
 msgid   "Fast animation (250ms)"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:154
+#: gavern/widgets.tweets.php:152
 msgid   "Favorite"
 msgstr  ""
 
-#: layouts/content.post.header.php:55 content-event.php:83
+#: layouts/content.post.header.php:55 content-event.php:86
 #: content-staff.php:23
 msgid   "Featured"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:281
-#: gavern/helpers/helpers.features.php:282
+#: gavern/helpers/helpers.features.php:381
+#: gavern/helpers/helpers.features.php:382
 msgid   "Featured Video"
 msgstr  ""
 
@@ -396,7 +472,7 @@ msgstr  ""
 msgid   "Fonts Squirrel: "
 msgstr  ""
 
-#: template.contact.php:108 template.contact.php:110 template.contact.php:112
+#: template.contact.php:109 template.contact.php:111 template.contact.php:113
 msgid   "From "
 msgstr  ""
 
@@ -405,31 +481,31 @@ msgstr  ""
 msgid   "Full size is %s pixels"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:20
+#: gavern/widgets.buddypress.php:23
 msgid   "GK BuddyPress Gallery"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:109
+#: gavern/widgets.buddypress.php:107
 msgid   "GK BuddyPress Gallery: There has been no recent activity."
 msgstr  ""
 
-#: gavern/widgets.comments.php:20
+#: gavern/widgets.comments.php:23
 msgid   "GK Comments"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:22
+#: gavern/widgets.imageshow.php:30
 msgid   "GK Image Show"
 msgstr  ""
 
-#: gavern/widgets.login.php:20
+#: gavern/widgets.login.php:23
 msgid   "GK Login"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:49
+#: gavern/widgets.tweets.php:47
 msgid   "GK Tweets"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:22
+#: gavern/widgets.tweets.php:25
 msgid   "GK Tweets Widget"
 msgstr  ""
 
@@ -457,11 +533,16 @@ msgstr  ""
 msgid   "Height and Opacity"
 msgstr  ""
 
-#: template.login.php:32 layouts/popups.php:28 gavern/widgets.login.php:65
+#: template.login.php:32 layouts/popups.php:28 gavern/widgets.login.php:63
 msgid   "Hi, "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:514 gavern/filters.php:325
+#: gavern/classes/class-tgm-plugin-activation.php:2070
+#: gavern/classes/class-tgm-plugin-activation.php:2079
+msgid   "Hide Details"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:614 gavern/filters.php:325
 msgid   "Homepage"
 msgstr  ""
 
@@ -469,35 +550,86 @@ msgstr  ""
 msgid   "Image"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:241
+#: gavern/widgets.imageshow.php:240
 msgid   "Image height:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:236
+#: gavern/widgets.imageshow.php:235
 msgid   "Image width:"
+msgstr  ""
+
+#: gavern/options.importexport.php:31
+msgid   "Import Template Settings"
 msgstr  ""
 
 #: gavern/functions.php:71
 msgid   "Import/Export"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:1288
+#: gavern/classes/class-tgm-plugin-activation.php:1409
+msgid   "Install"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:88
+#: gavern/classes/class-tgm-plugin-activation.php:162
+msgid   "Install Plugins"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:89
+#: gavern/classes/class-tgm-plugin-activation.php:161
+msgid   "Install Required Plugins"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1939
+msgid   "Install package not available."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1183
+msgid   "Installed But Not Activated"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid   "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:90
+#: gavern/classes/class-tgm-plugin-activation.php:163
+#, php-format
+msgid   "Installing Plugin: %s"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid   "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1942
+msgid   "Installing the plugin&#8230;"
+msgstr  ""
+
+#: gavern/options.importexport.php:51
+msgid   "Invalid file or file size too big."
+msgstr  ""
+
 #: 404.php:18
 msgid   "It seems we can&rsquo;t find what you&rsquo;re looking for."
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:89
+#: gavern/helpers/helpers.features.php:189
 msgid   "Keywords:"
 msgstr  ""
 
-#: gavern/widgets.comments.php:58
+#: gavern/widgets.comments.php:56
 msgid   "Latest Comments"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:52
+#: gavern/widgets.latestphotos.php:50
 msgid   "Latest Photos"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:272
+#: gavern/widgets.buddypress.php:270
 msgid   "Latest photos"
 msgstr  ""
 
@@ -518,25 +650,25 @@ msgid   "Link to full-size image"
 msgstr  ""
 
 #: template.login.php:48 layouts/popups.php:37 layouts/popups.php:47
-#: gavern/widgets.login.php:81 gavern/helpers/helpers.features.php:1031
+#: gavern/widgets.login.php:79 gavern/helpers/helpers.features.php:1128
 msgid   "Log In"
 msgstr  ""
 
-#: gavern/widgets.login.php:46
+#: gavern/widgets.login.php:44
 msgid   "Login Form"
 msgstr  ""
 
 #: template.login.php:33 template.login.php:34 layouts/popups.php:31
-#: layouts/popups.php:32 gavern/widgets.login.php:69
-#: gavern/widgets.login.php:70
+#: layouts/popups.php:32 gavern/widgets.login.php:67
+#: gavern/widgets.login.php:68
 msgid   "Logout"
 msgstr  ""
 
-#: gavern/widgets.login.php:171
+#: gavern/widgets.login.php:169
 msgid   "Lost Password:"
 msgstr  ""
 
-#: template.login.php:63 layouts/popups.php:62 gavern/widgets.login.php:100
+#: template.login.php:63 layouts/popups.php:62 gavern/widgets.login.php:98
 msgid   "Lost your password?"
 msgstr  ""
 
@@ -544,23 +676,23 @@ msgstr  ""
 msgid   "Members only"
 msgstr  ""
 
-#: template.contact.php:117
+#: template.contact.php:118
 msgid   "Message from"
 msgstr  ""
 
-#: template.contact.php:134 template.contact.php:240
+#: template.contact.php:135 template.contact.php:241
 msgid   "Message:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:288
+#: gavern/widgets.tweets.php:286
 msgid   "Mixed (Recent and Popular)"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:261
+#: gavern/widgets.imageshow.php:260
 msgid   "Mobile image height:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:256
+#: gavern/widgets.imageshow.php:255
 msgid   "Mobile image width:"
 msgstr  ""
 
@@ -581,7 +713,7 @@ msgstr  ""
 msgid   "Most Used Categories"
 msgstr  ""
 
-#: template.contact.php:121 template.contact.php:204
+#: template.contact.php:122 template.contact.php:205
 msgid   "Name:"
 msgstr  ""
 
@@ -609,23 +741,29 @@ msgstr  ""
 msgid   "No image selected"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:546
+#: gavern/helpers/helpers.features.php:643
 msgid   "No pages"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:508
+#: gavern/helpers/helpers.features.php:608
 msgid   "No pages except:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid   "No plugins to install or activate. <a href=\"%1$s\" title=\"Return "
+        "to the Dashboard\">Return to the Dashboard</a>"
 msgstr  ""
 
 #: gavern/helpers/helpers.shortcodes.php:615
 msgid   "No related posts found"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:676
+#: gavern/helpers/helpers.features.php:773
 msgid   "No styles available"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:647
+#: gavern/helpers/helpers.features.php:744
 msgid   "None"
 msgstr  ""
 
@@ -633,7 +771,11 @@ msgstr  ""
 msgid   "Normal animation (500ms)"
 msgstr  ""
 
-#: template.login.php:66 gavern/widgets.login.php:105
+#: gavern/classes/class-tgm-plugin-activation.php:1181
+msgid   "Not Installed"
+msgstr  ""
+
+#: template.login.php:66 gavern/widgets.login.php:103
 msgid   "Not a member? Register"
 msgstr  ""
 
@@ -644,16 +786,16 @@ msgstr  ""
 msgid   "Nothing Found"
 msgstr  ""
 
-#: gavern/widgets.comments.php:213
+#: gavern/widgets.comments.php:211
 msgid   "Number of comments:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:273 gavern/widgets.imageshow.php:286
-#: gavern/widgets.imageshow.php:309
+#: gavern/widgets.imageshow.php:272 gavern/widgets.imageshow.php:285
+#: gavern/widgets.imageshow.php:308
 msgid   "Off"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:216 gavern/widgets.buddypress.php:287
+#: gavern/widgets.latestphotos.php:214 gavern/widgets.buddypress.php:285
 msgid   "Offset:"
 msgstr  ""
 
@@ -661,20 +803,20 @@ msgstr  ""
 msgid   "Older posts"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:270 gavern/widgets.imageshow.php:283
-#: gavern/widgets.imageshow.php:306
+#: gavern/widgets.imageshow.php:269 gavern/widgets.imageshow.php:282
+#: gavern/widgets.imageshow.php:305
 msgid   "On"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:708
+#: gavern/helpers/helpers.features.php:805
 msgid   "Only administrator"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:706
+#: gavern/helpers/helpers.features.php:803
 msgid   "Only guests"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:707
+#: gavern/helpers/helpers.features.php:804
 msgid   "Only registered users"
 msgstr  ""
 
@@ -682,7 +824,7 @@ msgstr  ""
 msgid   "Opacity"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:516
+#: gavern/helpers/helpers.features.php:616
 msgid   "Page"
 msgstr  ""
 
@@ -691,19 +833,19 @@ msgstr  ""
 msgid   "Page %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:531
+#: gavern/helpers/helpers.features.php:629
 msgid   "Page ID/Title/slug:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:523
+#: gavern/helpers/helpers.features.php:623
 msgid   "Page Template"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:76
+#: gavern/helpers/helpers.features.php:176
 msgid   "Page additional params"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:72
+#: gavern/helpers/helpers.features.php:172
 msgid   "Page keywords and description"
 msgstr  ""
 
@@ -719,17 +861,17 @@ msgstr  ""
 msgid   "Pages:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:279
+#: gavern/widgets.imageshow.php:278
 msgid   "Pagination"
 msgstr  ""
 
-#: template.login.php:46 layouts/popups.php:45 gavern/widgets.login.php:82
-#: gavern/widgets.login.php:84 gavern/helpers/helpers.features.php:1027
-#: gavern/helpers/helpers.features.php:1029
+#: template.login.php:46 layouts/popups.php:45 gavern/widgets.login.php:80
+#: gavern/widgets.login.php:82 gavern/helpers/helpers.features.php:1124
+#: gavern/helpers/helpers.features.php:1126
 msgid   "Password"
 msgstr  ""
 
-#: template.login.php:63 layouts/popups.php:62 gavern/widgets.login.php:100
+#: template.login.php:63 layouts/popups.php:62 gavern/widgets.login.php:98
 msgid   "Password Lost and Found"
 msgstr  ""
 
@@ -746,7 +888,7 @@ msgstr  ""
 msgid   "Permalink to %1$s"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:342
+#: gavern/widgets.buddypress.php:340
 msgid   "Photo width (px):"
 msgstr  ""
 
@@ -762,44 +904,68 @@ msgstr  ""
 msgid   "Please check the form!"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:290
+#: gavern/classes/class-tgm-plugin-activation.php:1388
+msgid   "Plugin"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:103
+#: gavern/classes/class-tgm-plugin-activation.php:177
+#: gavern/classes/class-tgm-plugin-activation.php:1956
+msgid   "Plugin activated successfully."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1955
+msgid   "Plugin activation failed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1943
+msgid   "Plugin install failed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1944
+msgid   "Plugin installed successfully."
+msgstr  ""
+
+#: gavern/widgets.tweets.php:288
 msgid   "Popular"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:517
+#: gavern/helpers/helpers.features.php:617
 msgid   "Post"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:532
+#: gavern/helpers/helpers.features.php:630
 msgid   "Post ID/Title/slug:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:75
+#: gavern/helpers/helpers.features.php:175
 msgid   "Post additional params"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:71
+#: gavern/helpers/helpers.features.php:171
 msgid   "Post keywords and description"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:525
+#: gavern/helpers/helpers.features.php:625
 msgid   "Post type"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:540
+#: gavern/helpers/helpers.features.php:638
 msgid   "Post type:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1170
+#: gavern/classes/class-tgm-plugin-activation.php:1351
+msgid   "Pre-Packaged"
 msgstr  ""
 
 #: attachment.php:66
 msgid   "Previous Image"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:528
-msgid   "Product category"
-msgstr  ""
-
-#: gavern/helpers/helpers.features.php:541
-msgid   "Product category:"
+#: gavern/classes/class-tgm-plugin-activation.php:1167
+#: gavern/classes/class-tgm-plugin-activation.php:1348
+msgid   "Private Repository"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.php:460
@@ -811,7 +977,7 @@ msgstr  ""
 msgid   "Published in"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:255
+#: gavern/widgets.tweets.php:253
 msgid   "Query:"
 msgstr  ""
 
@@ -825,34 +991,46 @@ msgstr  ""
 msgid   "Read more"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:123 content-event.php:46 content-event.php:92
+#: gavern/widgets.buddypress.php:121 content-event.php:49 content-event.php:95
 #: content-staff.php:48 content.php:24 content.php:28
 msgid   "Read more..."
 msgstr  ""
 
-#: gavern/widgets.tweets.php:289
+#: gavern/widgets.tweets.php:287
 msgid   "Recent"
 msgstr  ""
 
-#: template.login.php:66 gavern/widgets.login.php:105 content-event.php:41
+#: gavern/classes/class-tgm-plugin-activation.php:1178
+msgid   "Recommended"
+msgstr  ""
+
+#: template.login.php:66 gavern/widgets.login.php:103 content-event.php:44
 msgid   "Register"
 msgstr  ""
 
-#: gavern/widgets.login.php:184
+#: gavern/widgets.login.php:182
 msgid   "Register Link:"
 msgstr  ""
 
-#: template.login.php:47 layouts/popups.php:46 gavern/widgets.login.php:80
-#: gavern/helpers/helpers.features.php:1030
+#: template.login.php:47 layouts/popups.php:46 gavern/widgets.login.php:78
+#: gavern/helpers/helpers.features.php:1127
 msgid   "Remember Me"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.fragments.php:128
-#: gavern/widgets.tweets.php:152
+#: gavern/widgets.tweets.php:150
 msgid   "Reply"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:286
+#: gavern/classes/class-tgm-plugin-activation.php:1178
+msgid   "Required"
+msgstr  ""
+
+#: gavern/options.importexport.php:61
+msgid   "Restore Template Settings"
+msgstr  ""
+
+#: gavern/widgets.tweets.php:284
 msgid   "Result type:"
 msgstr  ""
 
@@ -861,11 +1039,25 @@ msgstr  ""
 msgid   "Return to %s"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:153
+#: gavern/helpers/helpers.features.php:102
+#: gavern/classes/class-tgm-plugin-activation.php:175
+msgid   "Return to Required Plugins Installer"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:532
+#: gavern/classes/class-tgm-plugin-activation.php:2173
+msgid   "Return to the Dashboard"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:176
+msgid   "Return to the dashboard"
+msgstr  ""
+
+#: gavern/widgets.tweets.php:151
 msgid   "Retweet"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:211
+#: gavern/widgets.latestphotos.php:209
 msgid   "Rows: "
 msgstr  ""
 
@@ -894,7 +1086,7 @@ msgstr  ""
 msgid   "Search Results for: %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:526
+#: gavern/helpers/helpers.features.php:626
 msgid   "Search page"
 msgstr  ""
 
@@ -907,11 +1099,11 @@ msgstr  ""
 msgid   "Searching for: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:512
+#: gavern/helpers/helpers.features.php:612
 msgid   "Select page to add"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:545
+#: gavern/helpers/helpers.features.php:642
 msgid   "Selected pages"
 msgstr  ""
 
@@ -919,11 +1111,11 @@ msgstr  ""
 msgid   "Selectors:"
 msgstr  ""
 
-#: template.contact.php:229
+#: template.contact.php:230
 msgid   "Send copy of the message to yourself"
 msgstr  ""
 
-#: template.contact.php:269
+#: template.contact.php:267
 msgid   "Send message"
 msgstr  ""
 
@@ -931,71 +1123,72 @@ msgstr  ""
 msgid   "Settings saved"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:529
-msgid   "Shop"
-msgstr  ""
-
-#: gavern/helpers/helpers.features.php:189
+#: gavern/helpers/helpers.features.php:289
 msgid   "Show \"send copy\":"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:146
+#: gavern/classes/class-tgm-plugin-activation.php:2070
+#: gavern/classes/class-tgm-plugin-activation.php:2079
+msgid   "Show Details"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:246
 msgid   "Show author:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:295
+#: gavern/widgets.tweets.php:293
 msgid   "Show avatar:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:153
+#: gavern/helpers/helpers.features.php:253
 msgid   "Show category:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:167
+#: gavern/helpers/helpers.features.php:267
 msgid   "Show comments:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:139 gavern/widgets.tweets.php:313
+#: gavern/helpers/helpers.features.php:239 gavern/widgets.tweets.php:311
 msgid   "Show date:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:182
+#: gavern/helpers/helpers.features.php:282
 msgid   "Show e-mail field:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:124
+#: gavern/helpers/helpers.features.php:224
 msgid   "Show featured image:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:304
+#: gavern/widgets.tweets.php:302
 msgid   "Show links:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:175
+#: gavern/helpers/helpers.features.php:275
 msgid   "Show name field:"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:317
+#: gavern/widgets.buddypress.php:315
 msgid   "Show readmore"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:132
+#: gavern/helpers/helpers.features.php:232
 msgid   "Show sidebar information:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:160
+#: gavern/helpers/helpers.features.php:260
 msgid   "Show tags:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:266
+#: gavern/widgets.imageshow.php:265
 msgid   "Show text block"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:116
+#: gavern/helpers/helpers.features.php:216
 msgid   "Show title:"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:304
+#: gavern/widgets.buddypress.php:302
 msgid   "Show username"
 msgstr  ""
 
@@ -1015,7 +1208,7 @@ msgstr  ""
 msgid   "Sidebar on the right"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:231
+#: gavern/widgets.imageshow.php:230
 msgid   "Slides:"
 msgstr  ""
 
@@ -1027,11 +1220,19 @@ msgstr  ""
 msgid   "Small tablet width"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:692
+#: gavern/helpers/helpers.features.php:789
 msgid   "Smartphones"
 msgstr  ""
 
-#: template.contact.php:197
+#: gavern/helpers/helpers.features.php:91
+msgid   "Something went wrong with the plugin API."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:164
+msgid   "Something went wrong."
+msgstr  ""
+
+#: template.contact.php:198
 msgid   "Sorry, an error occured."
 msgstr  ""
 
@@ -1040,7 +1241,11 @@ msgid   "Sorry, but nothing matched your search criteria. Please try again "
         "with some different keywords."
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:275
+#: gavern/classes/class-tgm-plugin-activation.php:1389
+msgid   "Source"
+msgstr  ""
+
+#: gavern/widgets.buddypress.php:273
 msgid   "Specific user photos"
 msgstr  ""
 
@@ -1048,11 +1253,15 @@ msgstr  ""
 msgid   "Standard fonts"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:251
+#: gavern/classes/class-tgm-plugin-activation.php:1391
+msgid   "Status"
+msgstr  ""
+
+#: gavern/widgets.imageshow.php:250
 msgid   "Tablet image height:"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:246
+#: gavern/widgets.imageshow.php:245
 msgid   "Tablet image width:"
 msgstr  ""
 
@@ -1060,15 +1269,15 @@ msgstr  ""
 msgid   "Tablet width"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:693
+#: gavern/helpers/helpers.features.php:790
 msgid   "Tablet/Smartphones"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:691
+#: gavern/helpers/helpers.features.php:788
 msgid   "Tablets"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:520
+#: gavern/helpers/helpers.features.php:620
 msgid   "Tag"
 msgstr  ""
 
@@ -1081,7 +1290,7 @@ msgstr  ""
 msgid   "Tag Archives: %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:535
+#: gavern/helpers/helpers.features.php:633
 msgid   "Tag ID/Name:"
 msgstr  ""
 
@@ -1089,15 +1298,15 @@ msgstr  ""
 msgid   "Tag: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:524
+#: gavern/helpers/helpers.features.php:624
 msgid   "Taxonomy"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:539
+#: gavern/helpers/helpers.features.php:637
 msgid   "Taxonomy term:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:538
+#: gavern/helpers/helpers.features.php:636
 msgid   "Taxonomy:"
 msgstr  ""
 
@@ -1109,19 +1318,38 @@ msgstr  ""
 msgid   "Template version: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:537
+#: gavern/helpers/helpers.features.php:635
 msgid   "Template:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:164
+#: gavern/widgets.tweets.php:162
 msgid   "The amount of tweets must be bigger than 0"
 msgstr  ""
 
-#: template.contact.php:95
+#: gavern/classes/class-tgm-plugin-activation.php:178
+msgid   "The following plugin was activated successfully:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2069
+msgid   "The installation and activation process is starting. This process "
+        "may take a while on some hosts, so please be patient."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid   "The installation of %1$s failed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2076
+msgid   "The installation process is starting. This process may take a while "
+        "on some hosts, so please be patient."
+msgstr  ""
+
+#: template.contact.php:96
 msgid   "The reCAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr  ""
 
-#: gavern/widgets.tweets.php:167
+#: gavern/widgets.tweets.php:165
 msgid   "The specified query is empty"
 msgstr  ""
 
@@ -1129,8 +1357,13 @@ msgstr  ""
 msgid   "Theme width"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:101
+#: gavern/widgets.latestphotos.php:99
 msgid   "There has been no recent activity."
+msgstr  ""
+
+#: gavern/options.importexport.php:72
+msgid   "This backup file contains your Gavern template configuration and "
+        "setting options."
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.php:1059
@@ -1143,17 +1376,17 @@ msgid   "This post is password protected. Enter the password to view any "
         "comments."
 msgstr  ""
 
-#: content-event.php:43
+#: content-event.php:46
 msgid   "Time left to event: "
 msgstr  ""
 
-#: gavern/widgets.login.php:166 gavern/widgets.comments.php:198
-#: gavern/widgets.imageshow.php:226 gavern/widgets.tweets.php:251
-#: gavern/widgets.latestphotos.php:196 gavern/widgets.buddypress.php:263
+#: gavern/widgets.login.php:164 gavern/widgets.comments.php:196
+#: gavern/widgets.imageshow.php:225 gavern/widgets.tweets.php:249
+#: gavern/widgets.latestphotos.php:194 gavern/widgets.buddypress.php:261
 msgid   "Title:"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:292
+#: gavern/widgets.buddypress.php:290
 msgid   "Total amount of statuses"
 msgstr  ""
 
@@ -1165,6 +1398,14 @@ msgstr  ""
 msgid   "Tweet"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:1390
+msgid   "Type"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1941
+msgid   "Unpacking the package&#8230;"
+msgstr  ""
+
 #: gavern/layouts/updates.php:17 gavern/functions.php:83
 msgid   "Updates"
 msgstr  ""
@@ -1173,49 +1414,49 @@ msgstr  ""
 msgid   "Upload Image"
 msgstr  ""
 
-#: gavern/widgets.imageshow.php:25
+#: gavern/widgets.imageshow.php:22
 msgid   "Use this widget to show animated header"
 msgstr  ""
 
-#: gavern/widgets.login.php:23
+#: gavern/widgets.login.php:20
 msgid   "Use this widget to show login form e.g. on sidebar postition"
 msgstr  ""
 
-#: gavern/widgets.comments.php:23
+#: gavern/widgets.comments.php:20
 msgid   "Use this widget to show recent comments with avatars"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:23
+#: gavern/widgets.latestphotos.php:20
 msgid   "Use this widget to show recent photos of members"
 msgstr  ""
 
-#: gavern/widgets.buddypress.php:23
+#: gavern/widgets.buddypress.php:20
 msgid   "Use this widget to show recent statusk/photos of members"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:25
+#: gavern/widgets.tweets.php:22
 msgid   "Use this widget to show recent tweets for specific query"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:201 gavern/widgets.buddypress.php:282
+#: gavern/widgets.latestphotos.php:199 gavern/widgets.buddypress.php:280
 msgid   "User ID:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:280
+#: gavern/widgets.tweets.php:278
 msgid   "User secret:"
 msgstr  ""
 
-#: gavern/widgets.tweets.php:275
+#: gavern/widgets.tweets.php:273
 msgid   "User token:"
 msgstr  ""
 
-#: template.login.php:45 layouts/popups.php:44 gavern/widgets.login.php:83
-#: gavern/helpers/helpers.features.php:1026
-#: gavern/helpers/helpers.features.php:1028
+#: template.login.php:45 layouts/popups.php:44 gavern/widgets.login.php:81
+#: gavern/helpers/helpers.features.php:1123
+#: gavern/helpers/helpers.features.php:1125
 msgid   "Username"
 msgstr  ""
 
-#: content-event.php:40
+#: content-event.php:43
 msgid   "Venue: "
 msgstr  ""
 
@@ -1223,7 +1464,7 @@ msgstr  ""
 msgid   "Version: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:292
+#: gavern/helpers/helpers.features.php:392
 msgid   "Video Embed Code"
 msgstr  ""
 
@@ -1232,19 +1473,19 @@ msgstr  ""
 msgid   "View all posts by %s"
 msgstr  ""
 
-#: gavern/widgets.latestphotos.php:108 gavern/widgets.buddypress.php:114
+#: gavern/widgets.latestphotos.php:106 gavern/widgets.buddypress.php:112
 msgid   "View full image"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:504
+#: gavern/helpers/helpers.features.php:604
 msgid   "Visible at: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:711
+#: gavern/helpers/helpers.features.php:808
 msgid   "Visible for: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:696
+#: gavern/helpers/helpers.features.php:793
 msgid   "Visible on: "
 msgstr  ""
 
@@ -1252,11 +1493,20 @@ msgstr  ""
 msgid   "Website: "
 msgstr  ""
 
-#: content-event.php:89
+#: gavern/options.importexport.php:71
+msgid   "When you click \"Backup Template Settings\" button, system will "
+        "generate a template backup file for you to save on your computer."
+msgstr  ""
+
+#: content-event.php:92
 msgid   "When: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:682
+#: gavern/helpers/helpers.features.php:601
+msgid   "Widget rules"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:779
 msgid   "Widget style: "
 msgstr  ""
 
@@ -1268,12 +1518,16 @@ msgstr  ""
 msgid   "Width, Height and Opacity"
 msgstr  ""
 
-#: gavern/widgets.comments.php:208
+#: gavern/widgets.comments.php:206
 msgid   "Word count:"
 msgstr  ""
 
 #: gavern/filters.php:295
 msgid   "WordPress &rsaquo; Error"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1175
+msgid   "WordPress Repository"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.fragments.php:261
@@ -1322,7 +1576,7 @@ msgstr  ""
 msgid   "Your comment is awaiting moderation."
 msgstr  ""
 
-#: template.contact.php:192
+#: template.contact.php:193
 msgid   "Your message was sent to us successfully."
 msgstr  ""
 
@@ -1330,14 +1584,14 @@ msgstr  ""
 msgid   "of"
 msgstr  ""
 
-#: template.contact.php:76
+#: template.contact.php:78
 msgid   "please enter a text of the message."
 msgstr  ""
 
-#: template.contact.php:68
+#: template.contact.php:70
 msgid   "please enter correct email address."
 msgstr  ""
 
-#: template.contact.php:59
+#: template.contact.php:61
 msgid   "please enter your name"
 msgstr  ""

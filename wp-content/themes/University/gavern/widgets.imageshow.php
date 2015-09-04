@@ -16,19 +16,18 @@ class GK_ImageShow_Widget extends WP_Widget {
 	 * @return void
 	 *
 	 **/
-	function GK_ImageShow_Widget() {
-		$this->WP_Widget(
-			'widget_gk_image_show', 
-			__( 'GK Image Show', GKTPLNAME ), 
-			array( 
+	function __construct() {
+		$widget_ops = array(
 				'classname' => 'widget_gk_image_show', 
 				'description' => __( 'Use this widget to show animated header', GKTPLNAME) 
-			),
-			array(
+			);
+		
+		$control_ops = array(
 				'width' => 250, 
 				'height' => 300
-			)
-		);
+			);
+
+		parent::__construct('widget_gk_image_show', __( 'GK Image Show', GKTPLNAME ), $widget_ops, $control_ops );
 		
 		$this->alt_option_name = 'widget_gk_image_show';
 		// generate the head output
