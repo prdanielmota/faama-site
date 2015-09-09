@@ -27,7 +27,7 @@ $datemonth_end = $wp_locale->get_month($date_end->format('m') );
 
 	<section class="content">
 		<div class="gk-event">
-		  <h3><?php _e(‘Event Details: ', GKTPLNAME); ?></h3>
+		  <h3><?php _e('Event Details: ', GKTPLNAME); ?></h3>
 		  <ul>
 		    <li><strong><?php _e('Date: ', GKTPLNAME); ?></strong> 
 		    	<span class="gk-event-period">
